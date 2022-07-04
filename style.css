@@ -7,6 +7,11 @@
                         h1 {
                             font-size: 50px;
                             font-weight: 800;
+                            font-weight: bold;
+                        }
+                        
+                        .heading-color {
+                            color: red;
                         }
                         
                         .top-banner-paragraph {
@@ -14,18 +19,35 @@
                             padding-bottom: 40px;
                         }
                         
-                        .color-text {
-                            color: red;
-                        }
-                        
                         .top-banner {
                             display: flex;
                             background-image: url(images/shapes/Frame\ 58.jpg);
+                            background-repeat: no-repeat;
+                        }
+                        
+                        .second-hero-section {
+                            display: flex;
+                            background-image: url(images/shapes/Frame\ 59.jpg);
+                            background-repeat: no-repeat;
+                            padding-bottom: 50px
+                        }
+                        
+                        .second-hero-section img {
+                            max-width: 140%;
+                            max-height: 100%;
+                            padding-left: 40%;
                         }
                         
                         .half-width {
-                            padding-top: 120px;
-                            padding-left: 50px;
+                            padding-top: 100px;
+                            padding-left: 100px;
+                            padding-right: 80px;
+                        }
+                        
+                        .second-half-width {
+                            padding-top: 200px;
+                            padding-left: 500px;
+                            padding-right: 150px;
                         }
                         
                         .button-one {
