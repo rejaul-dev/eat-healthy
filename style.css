@@ -1,0 +1,38 @@
+                        body {
+                            margin: 0px;
+                            font-family: 'Inter', sans-serif;
+                            font-family: 'Poppins', sans-serif;
+                        }
+                        
+                        h1 {
+                            font-size: 50px;
+                            font-weight: 800;
+                        }
+                        
+                        .top-banner-paragraph {
+                            font-size: 20px;
+                            padding-bottom: 40px;
+                        }
+                        
+                        .color-text {
+                            color: red;
+                        }
+                        
+                        .top-banner {
+                            display: flex;
+                            background-image: url(images/shapes/Frame\ 58.jpg);
+                        }
+                        
+                        .half-width {
+                            padding-top: 120px;
+                            padding-left: 50px;
+                        }
+                        
+                        .button-one {
+                            background-image: linear-gradient(tomato, red);
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            color: white;
+                            padding: 12px 40px 12px 40px;
+                            border-radius: 50px
+                        }
