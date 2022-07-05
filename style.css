@@ -29,7 +29,6 @@
                             display: flex;
                             background-image: url(images/shapes/Frame\ 59.jpg);
                             background-size: cover;
-                            padding-bottom: 50px
                         }
                         
                         .second-hero-section img {
@@ -78,6 +77,10 @@
                             padding-bottom: 80px;
                         }
                         
+                        .recipe-section {
+                            padding-bottom: 100px;
+                        }
+                        
                         .container-card {
                             width: 40%;
                             margin-left: 5%;
@@ -101,4 +104,22 @@
                             padding-right: 30px;
                             border-radius: 15px;
                             box-shadow: 10px 10px 40px gray;
+                        }
+                        
+                        footer {
+                            background-image: url(images/shapes/Frame\ 57.jpg);
+                            background-size: cover;
+                            padding-top: 100px;
+                            padding-bottom: 100px;
+                        }
+                        
+                        footer h3 {
+                            font-size: 25px;
+                            text-align: center;
+                            color: tomato;
+                        }
+                        
+                        footer p {
+                            font-size: 20px;
+                            text-align: center;
                         }
