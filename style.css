@@ -22,13 +22,13 @@
                         .top-banner {
                             display: flex;
                             background-image: url(images/shapes/Frame\ 58.jpg);
-                            background-repeat: no-repeat;
+                            background-size: cover;
                         }
                         
                         .second-hero-section {
                             display: flex;
                             background-image: url(images/shapes/Frame\ 59.jpg);
-                            background-repeat: no-repeat;
+                            background-size: cover;
                             padding-bottom: 50px
                         }
                         
@@ -57,4 +57,48 @@
                             color: white;
                             padding: 12px 40px 12px 40px;
                             border-radius: 50px
+                        }
+                        
+                        .recipe-half-width p {
+                            font-size: 20px;
+                            text-align: center;
+                            padding-left: 300px;
+                            padding-right: 300px;
+                        }
+                        
+                        .recipe-half-width h2 {
+                            font-size: 40px;
+                            text-align: center;
+                            padding-top: 50px;
+                        }
+                        
+                        .container {
+                            display: flex;
+                            padding-top: 80px;
+                            padding-bottom: 80px;
+                        }
+                        
+                        .container-card {
+                            width: 40%;
+                            margin-left: 5%;
+                            margin-right: 5%;
+                            box-shadow: 10px 10px 40px gray;
+                            padding-top: 25px;
+                            padding-bottom: 50px;
+                            padding-left: 35px;
+                            border-radius: 20px;
+                        }
+                        
+                        .number-counter {
+                            display: flex;
+                            justify-content: space-around;
+                            width: 85%;
+                            margin-left: 5%;
+                            margin-right: 5%;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            border-radius: 15px;
+                            box-shadow: 10px 10px 40px gray;
                         }
